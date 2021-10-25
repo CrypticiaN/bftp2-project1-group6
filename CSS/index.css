@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 4%;x
+    padding: 20px;
+    color:royalblue;
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
