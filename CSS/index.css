@@ -3,7 +3,7 @@
     height:60px;
 
    background-color: gray; 
-    
+   justify-content: flex-end;
 }   
 
 .box {
@@ -29,5 +29,20 @@ body{
 
     width: 20px;
     height:20px;
+    justify-content: flex-start;
 
+}
+
+
+.logoimg{
+width: 60px;
+height: 60px;
+display: flex;
+
+
+}
+
+nav{
+
+    display: flew;
 }
