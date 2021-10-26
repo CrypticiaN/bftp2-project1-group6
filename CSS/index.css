@@ -46,7 +46,18 @@ li:last-child:hover{
     #00ffff
 }
 
- 
+ .flex-container {
+     display: flex;
+     background-color: #f5f5f5;
+    
+ }
+.flex-container div {
+    height: 300px;
+    width: 300px;
+}
+ .nombre {
+     font-weight: strong;
+ }
 
 
 
