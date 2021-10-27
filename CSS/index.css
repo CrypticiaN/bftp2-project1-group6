@@ -49,16 +49,42 @@ li:last-child:hover{
  .flex-container {
      display: flex;
      background-color: #f5f5f5;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     flex-wrap: wrap;
+     
+     
+    }
     
- }
-.flex-container div {
-    height: 300px;
-    width: 300px;
+  .flex-container div{
+     height: 250 px;
+     width: 250px;
+     background-color:lightgray;
+     padding: 50px;
+
+     
+           
+
 }
  .nombre {
      font-weight: strong;
  }
 
+.fotos{
+    border-radius: 150px;
+}
+
+.equipo{
+    padding: 50px;
+    text-align:justify;
+}
+h1{
+    text-align:center;
+}
+h2{
+    text-align: center;
+}
 
 
 
