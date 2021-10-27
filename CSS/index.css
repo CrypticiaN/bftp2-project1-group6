@@ -5,7 +5,7 @@
     list-style: none;
 }
 body{
-    background-color: #cdcdcd;
+    background-color: grey;
 
 }
 a, li{
@@ -30,6 +30,10 @@ header img{
     display: flex;
     align-items:center;
 
+
+}
+.menu-navegacion a{
+    color: white;
 }
 .menu-navegacion li{
     padding: 0 20px;
@@ -48,11 +52,12 @@ li:last-child:hover{
 
  .flex-container {
      display: flex;
-     background-color: #f5f5f5;
+     
      justify-content: center;
      align-items: center;
      padding: 50px;
      flex-wrap: wrap;
+
      
      
     }
@@ -81,6 +86,7 @@ li:last-child:hover{
 }
 h1{
     text-align:center;
+    color:#00ffff; 
 }
 h2{
     text-align: center;
