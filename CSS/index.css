@@ -61,8 +61,8 @@ li:last-child:hover{
      
      
     }
-    
-  .flex-container div{
+    /*para referirnos al hijo del hijo */
+  .flex-container div div{  
      height: 250 px;
      width: 250px;
      background-color:lightgray;
