@@ -52,22 +52,20 @@ li:last-child:hover{
 
  .flex-container {
      display: flex;
-     
+   
      justify-content: center;
      align-items: center;
-     padding: 50px;
-     flex-wrap: wrap;
-
+     
+     
      
      
     }
     /*para referirnos al hijo del hijo */
-  .flex-container div div{  
-     height: 250 px;
+    .flex-container div div{  
      width: 250px;
      background-color:lightgray;
      padding: 50px;
-
+    
      
            
 
@@ -89,16 +87,20 @@ li:last-child:hover{
 h1{
     text-align:center;
     color:#00ffff; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 70px;
 }
 h2{
     text-align: center;
-    font-family:
     font-size: 60px;
 }
 
-
+@media (max-width:650px){
+ .flex-container{
+     display:flex;
+     flex-direction: column;
+ }   
+}
 
 
 
