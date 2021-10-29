@@ -24,7 +24,7 @@ header{
     padding: .5rem 2rem; 
 }
 header img{
- height:150%;
+ height: 140px;%;
 }
 .menu-navegacion ul{
     display: flex;
